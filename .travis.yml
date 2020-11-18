@@ -1,0 +1,22 @@
+sudo: false
+
+language:
+  - python
+
+python:
+  - 3.8.5
+
+install:
+  - pip install -r requirements.txt
+  - pip install pytest-cov codecov
+
+script:
+  - pycodestyle eiov_sorter
+  - pytest --verbose --capture=no --cov=eiov_sorter
+  - pip install .
+
+after_success:
+  - codecov
+
+notifications:
+  email: false
