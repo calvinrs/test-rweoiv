@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="eiov-sorter", # Replace with your own username
+    name="eoiv-sorter", # Replace with your own username
     version="0.0.1",
     author="Calvin Stewart",
     author_email="calvinxstewart@gmail.com",

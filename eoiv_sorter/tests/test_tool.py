@@ -3,9 +3,9 @@ import pytest
 from pytest import approx
 
 ## Tested data
-from eiov_sorter.tool import eoiv_tool
+from eoiv_sorter.tool import eoiv_tool
 
-from eiov_sorter.utility import utility_model_list_to_model_dict, utility_model_json_to_model_dict, utility_model_dict_flatten_single_values
+from eoiv_sorter.utility import utility_model_list_to_model_dict, utility_model_json_to_model_dict, utility_model_dict_flatten_single_values
 
 import numpy as np
 import json

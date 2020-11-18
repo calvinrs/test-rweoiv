@@ -1,8 +1,8 @@
 import pytest
 
-from eiov_sorter.utility import utility_model_json_to_model_dict
-from eiov_sorter.utility import utility_model_list_to_model_dict
-from eiov_sorter.utility import utility_model_dict_to_model_json
+from eoiv_sorter.utility import utility_model_json_to_model_dict
+from eoiv_sorter.utility import utility_model_list_to_model_dict
+from eoiv_sorter.utility import utility_model_dict_to_model_json
 
 ### Test values
 
@@ -189,7 +189,7 @@ class TestModelDictToModelJSON:
 
 		assert test_out_model_json == out_model_direct_dict, "The model json list is as expected when the test dictionary is passed, where all single parameters have NOT been 'flattened'"
 
-	def utility_model_dict_to_model_json_unflattened(self):
+	def utility_model_dict_to_model_json_entrytables(self):
 
 		out_model_direct_dict = utility_model_dict_to_model_json(test_model_dict_entrytables)
 
