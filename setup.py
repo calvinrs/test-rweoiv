@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="eoiv-sorter", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Calvin Stewart",
     author_email="calvinxstewart@gmail.com",
     description="Example package in repo for testing integration",
