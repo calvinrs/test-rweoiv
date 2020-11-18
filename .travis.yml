@@ -11,9 +11,7 @@ install:
   - pip install pytest-cov codecov
 
 script:
-  - pycodestyle eiov_sorter
   - pytest --verbose --capture=no --cov=eiov_sorter
-  - pip install .
 
 after_success:
   - codecov
