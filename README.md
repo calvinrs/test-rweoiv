@@ -1,5 +1,5 @@
 
-https://travis-ci.com/calvinrs/test-rweoiv.svg?token=oR9t6yYaLDqKFwNrTbWQ&branch=main
+[![Build Status](https://travis-ci.com/calvinrs/test-rweoiv.svg?token=oR9t6yYaLDqKFwNrTbWQ&branch=main)](https://travis-ci.com/calvinrs/test-rweoiv)
 
 # Equity Option Implied Volatility Sorter
 
